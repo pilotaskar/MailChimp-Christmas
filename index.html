@@ -60,12 +60,20 @@
             display: block;
             font-family: 'Caudex', Georgia, serif;
             font-size: 16px;
-            font-weight: 700;
+            /* font-weight: 700; */
             line-height: 1;
             padding: 15px auto;
             text-align: center;
             background-color: #ba0007;
             color: #ffffff;
+            margin: 0 auto;
+            border-style: none;
+        }
+        .decorText {
+            font-family: 'Caudex', Georgia, serif;
+            letter-spacing: 0.5px;
+            line-height: 1.1;
+            font-size: 36px;
         }
 
         /* 1-page  */
@@ -73,6 +81,96 @@
             padding: 40px;
 
         }
+
+        .main {
+            background-color: #ffffff;
+            width: 716px;
+            max-width: 716px;
+            border-spacing: 0;
+        }
+
+        .red-row {
+            background-color: #ba0007;
+            width: 800px;
+            padding: 15px;
+            color: #ffffff;
+        }
+
+        .border-top {
+            width: 716px;
+            max-width: 716px;
+            border-spacing: 0;
+            border: 2px solid #ba0007;
+            border-bottom: none;
+            margin: 40px;
+            margin-bottom: 0px;
+        }
+
+        .border-bottom {
+            width: 716px;
+            max-width: 716px;
+            border-spacing: 0;
+            border: 2px solid #ba0007;
+            border-top: none;
+            margin: 40px;
+            margin-top: 0px;
+        }
+
+        .page_1 .column p {
+            color: #2d2d2d;
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 13px;
+            line-height: 24px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        .page_1 #red p {
+            font-family: 'Caudex', Georgia, serif;
+            line-height: 1;
+            font-size: 56px;
+            font-weight: 700;
+            text-align: center;
+            color: #ba0007;
+        }
+
+        .page_1 #green19 p {
+            font-family: 'Vast Shadow', Georgia, serif;
+            font-size: 110px;
+            /* line-height: 80%; */
+            text-align: center;
+            color: #024200;
+        }
+
+        .page_1 #december p {
+            color: #2d2d2d;
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 1;
+            text-align: center;
+        }
+
+
+        .footer1 {
+            margin: 0 auto;
+        }
+        .footer1 div {
+            display: inline-block;
+            padding-top: 15px;
+            padding-bottom: 25px;
+            padding-left: 50px;
+            padding-right: 50px;
+            align-items: center;
+            font-size: 13px;
+            margin: 0 auto;
+            color: #024200;
+        }
+
+        .footer1 img {
+            width: 20px;
+        }
+
 
         /* 2-page  */
         .page_2 {
@@ -208,6 +306,159 @@
                         <tr>
                             <td>
                                 <!-- Your code here inside the table-data -->
+
+                                <table class="main">
+                                  <tr>
+                                      <td>
+                                          <table class="border-top" width="100%">
+                                              <tr>
+                                                  <td>
+                                                      <img style="padding: 35px" width="138px"
+                                                          src="http://demo.web4pro.net/static/emails/xmas/logo.png"
+                                                          alt="">
+                                                  </td>
+                                              </tr>
+                                          </table>
+                                      </td>
+                                  </tr>
+                              </table>
+
+                              <table>
+                                  <tr>
+                                      <td class="red-row">
+                                          <span>MEN</span><span style="padding: 25px;">WOMEN</span><span>GIFTS</span>
+                                      </td>
+                                  </tr>
+                              </table>
+
+
+                              <table class="main">
+                                  <tr>
+                                      <td>
+
+                                          <table class="border-bottom">
+                                              <tr>
+                                                  <td>
+                                                      <table width="100%">
+
+                                                          <tr>
+                                                              <td>
+                                                                  <img style="padding: 35px" width="315px"
+                                                                      src="http://demo.web4pro.net/static/emails/xmas/christmas_badge.png"
+                                                                      alt="">
+                                                              </td>
+                                                          </tr>
+                                                      </table>
+
+                                                      <table width="100%">
+                                                          <tr>
+                                                              <td class="two-colums"
+                                                                  style="border-bottom: dotted 2px; border-top: dotted 2px;">
+                                                                  <table class="column" width="100%"
+                                                                      style="border-right: dotted 2px;">
+                                                                      <tr>
+                                                                          <td style="padding: 0" id="december">
+                                                                              <p>DECEMBER</p>
+                                                                          </td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                          <td id="green19">
+                                                                              <p style="padding: 0;">
+                                                                                  19</p>
+                                                                          </td>
+                                                                      </tr>
+                                                                  </table>
+
+                                                                  <table class="column" width="100%">
+                                                                      <tr>
+                                                                          <td>
+                                                                              <img style="padding: 1px" width="40px"
+                                                                                  src="http://demo.web4pro.net/static/emails/xmas/ico-bells.png"
+                                                                                  alt="">
+                                                                          </td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                          <td>
+                                                                              <p style="padding: 1px">TODAY’S
+                                                                                  EXCLUSIVE</p>
+                                                                          </td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                          <td id="red">
+                                                                              <p style="padding: 1px">60% OFF</p>
+                                                                          </td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                          <td>
+                                                                              <p style="padding: 1px">FIVE DAYS ONLY
+                                                                                  OFFERS</p>
+                                                                          </td>
+                                                                      </tr>
+                                                                  </table>
+                                                              </td>
+                                                          </tr>
+                                                      </table>
+                                                      <table>
+                                                          <tr>
+                                                              <td style=" padding-left: 50px; padding-right: 50px;">
+                                                                  <p> Lorem ipsum dolor sit amet, consectetur
+                                                                      adipisicing elit, sed do eiusmod tempor
+                                                                      incididunt ut labore et dolore magna aliqua.</p>
+                                                              </td>
+                                                          </tr>
+                                                      </table>
+                                                      <table style="border-spacing: 0; border-collapse: collapse;"
+                                                          width="100%">
+                                                          <tr>
+                                                              <td>
+                                                                  <button class="red-btn"
+                                                                      style="padding: 15px; margin-bottom: 40px; margin-top: 20px;">Shop
+                                                                      Now</button>
+                                                              </td>
+                                                          </tr>
+                                                      </table>
+                                                      <hr width="80%">
+                                                      <table>
+
+                                                          <tr>
+                                                              <td class="footer1" width="80%">
+                                                                  <div> <span> STARTS DEC 19</span></div>
+                                                                  <div>
+                                                                      <img src="http://demo.web4pro.net/static/emails/xmas/ico-instagram-black.png"
+                                                                          alt="">
+                                                                      <img src="http://demo.web4pro.net/static/emails/xmas/ico-facebook-black.png"
+                                                                          alt="">
+                                                                      <img src="http://demo.web4pro.net/static/emails/xmas/ico-twitter-black.png"
+                                                                          alt="">
+                                                                      <img src="http://demo.web4pro.net/static/emails/xmas/ico-linkedin-black.png"
+                                                                          alt="">
+                                                                      <img src="http://demo.web4pro.net/static/emails/xmas/ico-pinterest-black.png"
+                                                                          alt="">
+                                                                      <img src="http://demo.web4pro.net/static/emails/xmas/ico-googleplus-black.png"
+                                                                          alt="">
+
+                                                                  </div>
+                                                                  <div>
+                                                                      <span> ENDS <span
+                                                                              style="color:red;">DEC24</span>
+                                                                      </span>
+                                                                  </div>
+
+                                                              </td>
+                                                          </tr>
+
+                                                      </table>
+
+
+                                                  </td>
+                                              </tr>
+
+                                          </table>
+                                      </td>
+                                  </tr>
+                              </table>
+
+
 
 
                             </td>
