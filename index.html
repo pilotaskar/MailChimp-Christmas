@@ -70,13 +70,6 @@
       border-style: none;
     }
 
-    .decorText {
-      font-family: 'Caudex', Georgia, serif;
-      letter-spacing: 0.5px;
-      line-height: 1.1;
-      font-size: 36px;
-    }
-
     /* 1-page  */
     .page_1 {
       padding: 40px;
@@ -123,6 +116,10 @@
       margin-top: 0px;
     }
 
+    #christmas {
+      width: 315px;
+    }
+
     .page_1 .column p {
       color: #2d2d2d;
       font-family: 'Open Sans', Arial, sans-serif;
@@ -132,7 +129,7 @@
       text-align: center;
     }
 
-    .page_1 #red60{
+    .page_1 #red60 {
       font-family: 'Caudex', Georgia, serif;
       font-size: 60px;
       text-align: center;
@@ -148,14 +145,14 @@
       color: #024200;
     }
 
-    .page_1 #december{
+    .page_1 #december {
       color: #024200;
       font-family: 'Open Sans', Arial, sans-serif;
       font-size: 32px;
       /* line-height: 2; */
       text-align: center;
     }
-    
+
 
     .footer1 {
       margin: 0 auto;
@@ -273,29 +270,95 @@
 
       }
 
-      .main2 {
+
+      .main {
         background-color: #ffffff;
-        /* margin: 40px auto; */
-        width: 400px;
-        max-width: 400px;
-        border-spacing: 0;
-        color: #4a4a4a;
+        width: 308px;
+        max-width: 308px;
+      }
 
+      .red-row {
+        width: 340px;
+      }
 
+      .bgcolor {
+        width: 340px;
+      }
+
+      .border-top {
+        width: 308px;
+        max-width: 308px;
+        margin: 15px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+      }
+
+      .border-bottom {
+        width: 308px;
+        max-width: 308px;
+        margin: 15px;
+        margin-bottom: 40px;
+        margin-top: 0px;
+      }
+
+      .footer1 div {
+        display: block;
+        padding-top: 10x;
+        padding-bottom: 10px;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+
+      .page_1 #christmas {
+        width: 250px !important;
+      }
+
+      .page_1 #red60 {
+        font-size: 42px;
+      }
+
+      .border-bottom table {
+        border-collapse: collapse;
+        border-spacing: 0 !important;
+        margin: 20px auto;
+      }
+
+      .two-colums .column {
+        border-right: none !important;
+        border-spacing: 0 !important;
+        display: block;
+        margin: 20px auto;
+      }
+
+      .column singleline {
+        display: block;
+        width: 270px;
+        margin: auto;
+      }
+
+      .two-colums {
+        width: 308px;
+        display: block;
+      }
+
+      .column200 {
+        text-align: center;
+        width: 200px;
+      }
+
+      .column390 {
+        width: 250px;
+        text-align: center;
+      }
+
+      .column390 img {
+        width: 260px;
       }
 
       .main3 {
-        background-color: #ffffff;
-        margin: 0 auto;
-        width: 300px;
-        max-width: 300px;
-        color: #4a4a4a;
-
+        width: 308px;
+        max-width: 308px;
       }
-
-
-
-
     }
   </style>
 </head>
@@ -348,7 +411,7 @@
 
                               <tr>
                                 <td>
-                                  <img style="padding-top: 40px" width="315px"
+                                  <img id="christmas" style="padding-top: 40px"
                                     src="http://demo.web4pro.net/static/emails/xmas/christmas_badge.png" alt="">
                                 </td>
                               </tr>
@@ -358,7 +421,8 @@
                               <tr>
                                 <td width="600px" class="two-colums"
                                   style="border-bottom: dashed 2px #024200; border-top: dashed 2px #024200;">
-                                  <table class="column" width="250px" style="border-right: solid 2px #999797; border-collapse: separate; border-spacing: 20px;">
+                                  <table class="column" width="250px"
+                                    style="border-right: solid 2px #999797; border-collapse: separate; border-spacing: 20px;">
                                     <tr>
                                       <td>
                                         <singleline id="december">DECEMBER</singleline>
@@ -368,12 +432,13 @@
                                     </tr>
                                   </table>
 
-                                  <table class="column" width="350px" style="border-collapse: separate; border-spacing: 30px;">
+                                  <table class="column" width="350px"
+                                    style="border-collapse: separate; border-spacing: 30px;">
                                     <tr>
                                       <td>
                                         <singleline>
                                           <img style="padding-bottom: 10px" width="40px"
-                                          src="http://demo.web4pro.net/static/emails/xmas/ico-bells.png" alt="">
+                                            src="http://demo.web4pro.net/static/emails/xmas/ico-bells.png" alt="">
                                         </singleline><br>
                                         <singleline style="padding: 1px">TODAY’S
                                           EXCLUSIVE</singleline>
